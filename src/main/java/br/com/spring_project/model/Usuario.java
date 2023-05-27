@@ -50,5 +50,5 @@ public class Usuario {
     @Size(min =3, message = "O login deve ter no mínimo 3 caracteres")      
     private String login;
     
-    private boolean ativo;
+    private boolean ativo = true;
 }
